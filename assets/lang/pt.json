@@ -15,6 +15,10 @@
         "highlight": {
             "title": "Descubra a Magia da Matemática com o Vila Matemática",
             "action": "Baixe o aplicativo"
+        },
+        "journey": {
+            "title": "Uma jornada emocionante pelo mundo dos números",
+            "subtitle": "Um aplicativo divertido e interativo que transforma o aprendizado da matemática em pura diversão!"
         }
     }
 }
