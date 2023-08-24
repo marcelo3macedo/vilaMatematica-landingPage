@@ -1,4 +1,5 @@
 import { useTranslation } from "react-multi-lang"
+import logo from "@assets/images/logo.png"
 
 const generateSeo = route => {
     const t = useTranslation()
@@ -20,7 +21,7 @@ const generateSeo = route => {
 }
 
 const getLogo = () => {
-    return `${process.env.NEXT_PUBLIC_WEB_ENDPOINT}/logo.png`
+    return logo.src
 }
 
 const getTitle = (t, route) => {
