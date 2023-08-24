@@ -1,0 +1,20 @@
+{
+    "application": {
+        "name": "Vila Matemática",
+        "title": "Aplicativo de matemática para crianças",
+        "keywords": "aplicativo, infantil, matemática, crianças, aprendizado, divertido",
+        "description": "O método número 1 de seus estudos. Destaque-se em vestibulares, concursos, provas e muito mais.",
+        "pages": {
+            "home": {
+                "title": "Aplicativo de matemática para crianças",
+                "description": "Seu pequeno está pronto para embarcar em uma jornada emocionante pelo mundo dos números? Introduza-os ao Vila Matemática, o aplicativo divertido e interativo que transforma o aprendizado da matemática em pura diversão!"
+            }
+        }
+    },
+    "banners": {
+        "highlight": {
+            "title": "Descubra a Magia da Matemática com o Vila Matemática",
+            "action": "Baixe o aplicativo"
+        }
+    }
+}

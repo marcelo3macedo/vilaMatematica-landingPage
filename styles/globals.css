@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;800&display=swap');
+
+:root {
+  --pallete01: #e5ddc8;
+  --pallete02: #01949a;
+  --pallete03: #004369;
+  --pallete04: #db1f48;
+  --pallete03Dark: #002137;
+
+  --light: #fff;
+  --dark: #424242;
+  --lightGray: #a09d9d;
+  --maxWidth: 1200px;
+  --opacity: 0.7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--primary);
+  font-family: 'League Spartan', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 42pt;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 36pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 16pt;
+}
+
+:hover{
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+@media (max-width: 768px) {
+  main {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  } 
+}
