@@ -1,8 +1,11 @@
 import { useTranslation } from "react-multi-lang"
 
-import cellphone from "@assets/images/mockup/celular.png"
-import download from "@assets/images/download.png"
-import { Wrapper, Container, Details, Preview, Video, Cellphone, CellphoneImage, Title, Buttons, Button, Download } from "./styles"
+import MockedVideo from "@components/videos/mocked"
+import PrimaryText from "@components/elements/texts/primary"
+import PrimaryButton from "@components/elements/buttons/primary"
+import ExtendedLogo from "@components/elements/images/extendedLogo"
+import { Themes } from "@interfaces/texts/PrimaryTextProps"
+import { Wrapper, Container, InfoArea, VideoArea, Actions } from "./styles"
 
 const Main = () => {
   const t = useTranslation()
@@ -10,19 +13,16 @@ const Main = () => {
   return (
       <Wrapper>
         <Container>
-          <Details>
-            <Title>{t('banners.highlight.title')}</Title>
-            <Buttons>
-              <Button>{t('banners.highlight.action')}</Button>
-            </Buttons>
-          </Details>
-          <Preview>
-            <Video autoPlay loop src="./presentations.mp4" />
-            <Cellphone className="no-select">
-              <CellphoneImage src={cellphone.src} />            
-            </Cellphone>
-            <Download src={download.src} />
-          </Preview>
+          <InfoArea>
+            <ExtendedLogo />
+            <PrimaryText text={t('banners.highlight.title')} theme={Themes.Light} />
+            <Actions>
+              <PrimaryButton text={t('banners.highlight.action')} />
+            </Actions>
+          </InfoArea>
+          <VideoArea>
+            <MockedVideo src="./resume.mp4" />
+          </VideoArea>
         </Container>
       </Wrapper>
   )
