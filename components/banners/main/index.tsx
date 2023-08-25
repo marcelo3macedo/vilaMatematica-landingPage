@@ -10,6 +10,10 @@ import { Wrapper, Container, InfoArea, VideoArea, Actions } from "./styles"
 const Main = () => {
   const t = useTranslation()
 
+  function goToApp() {
+    window.location.href = process.env.NEXT_PUBLIC_APP_LINK
+  }
+
   return (
       <Wrapper>
         <Container>
@@ -17,7 +21,7 @@ const Main = () => {
             <ExtendedLogo />
             <PrimaryText text={t('banners.highlight.title')} theme={Themes.Light} />
             <Actions>
-              <PrimaryButton text={t('banners.highlight.action')} />
+              <PrimaryButton text={t('banners.highlight.action')} action={goToApp} />
             </Actions>
           </InfoArea>
           <VideoArea>

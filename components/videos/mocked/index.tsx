@@ -3,8 +3,12 @@ import download from "@assets/images/download.png"
 import { Wrapper, Video, Cellphone, CellphoneImage, Download } from "./styles"
 
 const MockedVideo = ({ src }) => {
+  function goToApp() {
+    window.location.href = process.env.NEXT_PUBLIC_APP_LINK
+  }
+
   return (
-      <Wrapper>
+      <Wrapper onClick={goToApp}>
         <Video autoPlay muted loop src={src} />
         <Cellphone className="no-select">
           <CellphoneImage src={cellphone.src} />            

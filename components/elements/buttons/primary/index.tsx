@@ -1,8 +1,8 @@
 import { Button, Wrapper } from "./styles";
 
-const PrimaryButton = ({ text }) => {
+const PrimaryButton = ({ text, action }) => {
     return (
-        <Wrapper>
+        <Wrapper onClick={action}>
             <Button>{text}</Button>
         </Wrapper>
     )

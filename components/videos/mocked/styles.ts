@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     background: var(--pallete03);
     padding: 60px 0;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const Video = styled.video`

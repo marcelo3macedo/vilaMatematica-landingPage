@@ -6,10 +6,14 @@ import { Wrapper, Container } from "./styles"
 const Promote = () => {
   const t = useTranslation()
 
+  function goToApp() {
+    window.location.href = process.env.NEXT_PUBLIC_APP_LINK
+  }  
+
   return (
       <Wrapper>
         <Container>
-          <PrimaryButton text={t('banners.promote.action')} />
+          <PrimaryButton text={t('banners.promote.action')} action={goToApp} />
         </Container>
       </Wrapper>
   )

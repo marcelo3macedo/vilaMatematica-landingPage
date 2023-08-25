@@ -9,6 +9,10 @@ const ContactUs = () => {
   const t = useTranslation()
   const mail = process.env.NEXT_PUBLIC_WEB_EMAIL
 
+  function navigateTo(href) {
+    window.location.href = href
+  }
+
   return (
       <Wrapper>
         <Container>
@@ -16,9 +20,9 @@ const ContactUs = () => {
 
           <Options>
             <Block>
-              <Link><SubtitleLink text={t('banners.contactUs.facebook')} /></Link>
-              <Link><SubtitleLink text={t('banners.contactUs.youtube')} /></Link>
-              <Link><SubtitleLink text={t('banners.contactUs.instagram')} /></Link>
+              <Link><SubtitleLink text={t('banners.contactUs.facebook')} action={() => { navigateTo(process.env.NEXT_PUBLIC_APP_FACEBOOK)}} /></Link>
+              <Link><SubtitleLink text={t('banners.contactUs.youtube')} action={() => { navigateTo(process.env.NEXT_PUBLIC_APP_YOUTUBE)}} /></Link>
+              <Link><SubtitleLink text={t('banners.contactUs.instagram')} action={() => { navigateTo(process.env.NEXT_PUBLIC_APP_INSTAGRAM)}} /></Link>
             </Block>
             <Block>
               <Link><SubtitleText text={t('banners.contactUs.email')} /></Link>

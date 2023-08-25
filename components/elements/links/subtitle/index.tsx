@@ -2,10 +2,10 @@ import { getTheme } from "helpers/ThemeHelper";
 import { Content, Wrapper } from "./styles";
 import { Themes } from "@interfaces/texts/PrimaryTextProps";
 
-const SubtitleLink = ({ text, theme = Themes.Dark }) => {
+const SubtitleLink = ({ text, action=null, theme = Themes.Dark }) => {
     const color = getTheme(theme)
     return (
-        <Wrapper>
+        <Wrapper onClick={action}>
             <Content color={color}>{text}</Content>
         </Wrapper>
     )
