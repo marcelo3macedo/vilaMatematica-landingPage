@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://vilamatematica.professoraantenada.com.br',
+    siteUrl: 'https://vilamatematicaapp.professoraantenada.com.br',
     generateRobotsTxt: true,
 }
