@@ -8,6 +8,22 @@
             "home": {
                 "title": "Aplicativo de matemática para crianças",
                 "description": "Seu pequeno está pronto para embarcar em uma jornada emocionante pelo mundo dos números? Introduza-os ao Vila Matemática, o aplicativo divertido e interativo que transforma o aprendizado da matemática em pura diversão!"
+            },
+            "about": {
+                "title": "Sobre: Aplicativo de matemática para crianças",
+                "description": "Nossos aplicativos são desenvolvidos com base em pesquisas pedagógicas sólidas e nas melhores práticas de design de jogos e interações. Procuramos criar atividades interativas e desafiadoras que estimulem o pensamento crítico, a resolução de problemas, a criatividade e outras habilidades essenciais para o desenvolvimento infantil."
+            },
+            "privacypolicy": {
+                "title": "Políticas de Privacidade: Aplicativo de matemática para crianças",
+                "description": "Esta política de privacidade tem como objetivo informar sobre como coletamos, usamos e protegemos as informações pessoais das crianças que utilizam nosso aplicativo. A privacidade das crianças é extremamente importante para nós, e estamos comprometidos em garantir um ambiente seguro e protegido para elas."
+            },
+            "termsofuse": {
+                "title": "Termos de Uso: Aplicativo de matemática para crianças",
+                "description": "Ao acessar ao site Vila Matemática, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis."
+            },
+            "contact": {
+                "title": "Contato: Aplicativo de matemática para crianças",
+                "description": "Bem-vindo ao nosso time de desenvolvimento de aplicativos educacionais focados no auxílio ao aprendizado infantil! Aqui no nosso time, somos apaixonados por criar soluções inovadoras que tornem o processo de ensino e aprendizagem mais envolvente, interativo e divertido para as crianças."
             }
         }
     },

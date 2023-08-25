@@ -1,6 +1,14 @@
 import { useTranslation } from "react-multi-lang"
 import logo from "@assets/images/logo.png"
 
+const pages = {
+    ['/'] : 'home',
+    ['/about'] : 'about',
+    ['/privacypolicy'] : 'privacypolicy',
+    ['/termsofuse'] : 'termsofuse',
+    ['/contact'] : 'contact'
+}
+
 const generateSeo = route => {
     const t = useTranslation()
     const title = getTitle(t, route)
@@ -25,10 +33,6 @@ const getLogo = () => {
 }
 
 const getTitle = (t, route) => {
-    const pages = {
-        ['/'] : 'home'
-    }
-
     const title = pages[route]
         ? t(`application.pages.${pages[route]}.title`)
         : t('application.title')
@@ -37,10 +41,6 @@ const getTitle = (t, route) => {
 }
 
 const getDescription = (t, route) => {
-    const pages = {
-        ['/'] : 'home'
-    }
-
     return t(`application.pages.${pages[route]}.description`)
 }
 
