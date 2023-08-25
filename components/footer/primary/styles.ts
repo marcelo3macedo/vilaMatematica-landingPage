@@ -5,6 +5,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+    max-width: var(--maxWidth);
+    margin: auto;
 `;
 
 export const Actions = styled.div`
