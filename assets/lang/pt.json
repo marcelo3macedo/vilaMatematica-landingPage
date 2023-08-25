@@ -19,6 +19,25 @@
         "journey": {
             "title": "Uma jornada emocionante pelo mundo dos números",
             "subtitle": "Um aplicativo divertido e interativo que transforma o aprendizado da matemática em pura diversão!"
+        },
+        "functionalities": {
+            "title": "Funcionalidades",
+            "operation": {
+                "title": "🌈 1. Operações Básicas Animadas",
+                "description": "Seja adição, subtração, multiplicação ou divisão - seu pequeno aprenderá tudo de uma maneira lúdica!"
+            },
+            "fingers": {
+                "title": "✋ 2. Identificação de Dedos nas Mãos",
+                "description": "Aprenda a contar usando os próprios dedinhos! Uma forma intuitiva e natural de familiarizar-se com os números."
+            },
+            "count": {
+                "title": "🐠 3. Contagem de Elementos",
+                "description": "Seja contando peixes em um aquário ou estrelas no céu, a contagem nunca foi tão empolgante!"
+            },
+            "problems": {
+                "title": "🚀 4. Resolução de Problemas Mágicos",
+                "description": "Desafios encantados esperam para serem resolvidos. À medida que as crianças avançam, elas 'liberam animais' na natureza."
+            }
         }
     }
 }
