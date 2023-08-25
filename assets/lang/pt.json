@@ -53,5 +53,14 @@
             "youtube": "Youtube",
             "instagram": "Instagram"
         }
+    },
+    "footer": {
+        "copyright": "2023 Vila Matemática - Todos os direitos reservados",
+        "action": {
+            "about": "Sobre",
+            "privacyPolicy": "Políticas de Privacidade",
+            "termsOfUse": "Termos de Uso",
+            "contact": "Contato"
+        }
     }
 }
