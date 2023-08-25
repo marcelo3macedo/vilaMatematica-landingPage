@@ -45,6 +45,13 @@
         },
         "promote": {
             "action": "🎈 Baixe Agora e Desperte o Mago da Matemática em Seu Pequeno!"
+        },
+        "contactUs": {
+            "title": "Fale Conosco",
+            "email": "E-mail",
+            "facebook": "Facebook",
+            "youtube": "Youtube",
+            "instagram": "Instagram"
         }
     }
 }
