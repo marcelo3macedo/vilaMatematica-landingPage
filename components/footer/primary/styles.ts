@@ -9,6 +9,11 @@ export const Content = styled.div`
 
 export const Actions = styled.div`
     padding: 40px;
+
+    
+    @media (max-width: 768px) {
+        padding: 40px 20px;
+    }
 `;
 
 export const Copyright = styled.div`

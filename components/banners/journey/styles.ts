@@ -22,6 +22,10 @@ export const Container = styled.div`
 
 export const InfoArea = styled.div`
     max-width: 580px;
+
+    @media (max-width: 768px) {
+        max-width: inherit;
+    }    
 `;
 
 export const Details = styled.div`
@@ -30,6 +34,11 @@ export const Details = styled.div`
 
 export const ImageArea = styled.div`
     padding-right: 20px;
+
+    @media (max-width: 768px) {
+        padding-right: 0;
+        padding: 40px 0;
+    }    
 `;
 
 export const Actions = styled.div`

@@ -6,4 +6,8 @@ export const Wrapper = styled.div`
 
 export const Image = styled.img`
     max-width: 270px;
+
+    @media (max-width: 768px) {
+        max-width: 180px;
+    }
 `;

@@ -26,9 +26,19 @@ export const InfoArea = styled.div`
 
 export const VideoArea = styled.div`
     padding-right: 20px;
+
+    @media (max-width: 768px) {
+        margin-top: 90px;
+    }
 `;
 
 export const Actions = styled.div`
     margin-top: 40px;
     text-align: center;
+    
+    @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 `;

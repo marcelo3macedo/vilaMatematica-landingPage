@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+    max-width: 100%;
 `;
 
 export const Button = styled.h4`
@@ -9,6 +10,7 @@ export const Button = styled.h4`
     width: max-content;
     padding: 20px 40px;
     border-radius: 35px;
+    max-width: 100%;
 
     &:hover {
         cursor: pointer;
