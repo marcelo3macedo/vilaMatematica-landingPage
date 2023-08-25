@@ -13,6 +13,26 @@ const nextConfig = {
     });
 
     return config;
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/sobre',
+        destination: '/about',
+      },
+      {
+        source: '/contato',
+        destination: '/contact',
+      },
+      {
+        source: '/politicasprivacidade',
+        destination: '/privacypolicy',
+      },
+      {
+        source: '/termosdeuso',
+        destination: '/termsofuse',
+      },
+    ]
   }
 }
 

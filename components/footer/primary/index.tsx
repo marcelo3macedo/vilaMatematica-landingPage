@@ -16,8 +16,8 @@ const PrimaryFooter = () => {
             <Content>
                 <Actions>
                     <Link><InformationLink text={t('footer.action.about')} theme={Themes.Light} action={() => { navigateTo('/sobre') }} /></Link>
-                    <Link><InformationLink text={t('footer.action.privacyPolicy')}  theme={Themes.Light} action={() => { navigateTo('/politicas-privacidade') }} /></Link>
-                    <Link><InformationLink text={t('footer.action.termsOfUse')}  theme={Themes.Light} action={() => { navigateTo('/termos-de-uso') }} /></Link>
+                    <Link><InformationLink text={t('footer.action.privacyPolicy')}  theme={Themes.Light} action={() => { navigateTo('/politicasprivacidade') }} /></Link>
+                    <Link><InformationLink text={t('footer.action.termsOfUse')}  theme={Themes.Light} action={() => { navigateTo('/termosdeuso') }} /></Link>
                     <Link><InformationLink text={t('footer.action.contact')}  theme={Themes.Light} action={() => { navigateTo('/contato') }} /></Link>
                 </Actions>
                 <Copyright>

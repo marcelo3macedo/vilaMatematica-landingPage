@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://memorizou.com.br
+Host: https://vilamatematicaapp.professoraantenada.com.br
 
 # Sitemaps
-Sitemap: https://memorizou.com.br/sitemap.xml
+Sitemap: https://vilamatematicaapp.professoraantenada.com.br/sitemap.xml
