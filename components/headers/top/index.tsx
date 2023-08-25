@@ -5,6 +5,7 @@ import { generateSeo } from "helpers/SeoHelper";
 const HeaderTop = () => {
     const router = useRouter()
     const { name, title, description, keywords, url, logo } = generateSeo(router.pathname)
+    const analyticsCode = process.env.NEXT_PUBLIC_ANALYTICS
 
     return (
         <Head>
@@ -26,6 +27,21 @@ const HeaderTop = () => {
 
             <meta name='twitter:card' content='summary' />
             <meta name='twitter:image' content={logo} />
+
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=${analyticsCode}`}
+            />
+            <script
+                dangerouslySetInnerHTML={{
+                __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${analyticsCode}');
+                `,
+                }}
+            />
         </Head>
     )
 }
