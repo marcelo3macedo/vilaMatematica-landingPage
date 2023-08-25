@@ -37,7 +37,14 @@
             "problems": {
                 "title": "🚀 4. Resolução de Problemas Mágicos",
                 "description": "Desafios encantados esperam para serem resolvidos. À medida que as crianças avançam, elas 'liberam animais' na natureza."
+            },
+            "disclaimer": {
+                "title": "Para os pais:",
+                "description": "Sabemos o quão importante é para você garantir que seu filho tenha as melhores ferramentas de aprendizado. O Vila Matemática foi cuidadosamente desenvolvido por educadores e designers especializados em educação infantil, garantindo um ambiente seguro, educativo e divertido."
             }
+        },
+        "promote": {
+            "action": "🎈 Baixe Agora e Desperte o Mago da Matemática em Seu Pequeno!"
         }
     }
 }
